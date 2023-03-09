@@ -6,7 +6,7 @@
       <form [formGroup]="_reserveForm" (ngSubmit)="bidOnName()">
 
         <input type="text" name="name" id="name" formControlName="nameUsd" class="form-control" aria-describedby="nameHelp" placeholder="Bid for...">
-        <small id="nameHelp" class="form-text text-muted"> Name you are biddin for.</small>
+        <small id="nameHelp" class="form-text text-muted"> Name you are bidding on.</small>
         <!-- error messages -->
         <div *ngIf="_reserveForm.controls.nameUsd.touched && _reserveForm.controls.nameUsd.errors">
 
@@ -19,7 +19,7 @@
         </div>
         <!-- <label for="fee">Bid</label> -->
         <input type="text" name="number" id="fee" formControlName="bidValue" class="form-control" aria-describedby="feeHelp" placeholder="Enter Reservation Fee">
-        <small id="feeHelp" class="form-text text-muted">Bid Amount in Ether</small>
+        <small id="feeHelp" class="form-text text-muted">Bid Amount in Matic</small>
         <button type="submit" [disabled]="!_reserveForm.valid" class="btn btn-primary" data-toggle="modal" data-target="#modal8">Submit</button>
       </form>
     </div>
