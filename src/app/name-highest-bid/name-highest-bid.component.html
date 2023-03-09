@@ -6,7 +6,7 @@
       <form [formGroup]="form" (ngSubmit)="getHighestBid()">
 
         <input type="text" name="name" id="name" formControlName="nameUsd" class="form-control" aria-describedby="nameHelp" placeholder="Highest Bid for Name">
-        <small id="nameHelp" class="form-text text-muted">Enter the Name you desire.</small>
+        <small id="nameHelp" class="form-text text-muted">Enter the ThirdyName you desire.</small>
         <!-- error messages -->
         <div *ngIf="form.controls.nameUsd.touched && form.controls.nameUsd.errors">
 
