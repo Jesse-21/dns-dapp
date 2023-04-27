@@ -41,7 +41,7 @@ export class NamePriceComponent implements OnInit {
    console.log(this.form.value.nameUsd);
   this.nameService.getPrice(this.form.value.nameUsd).then(value=>{
     value  = value/1000000000000000000;
-    this._modal._displayResult= `Name price ${value} ether `;
+    this._modal._displayResult= `Name price ${value} matic `;
   });
   
   this.form.reset();
