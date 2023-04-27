@@ -19,6 +19,7 @@ export class RulesComponent implements OnInit {
       "If your bid is over-bidden by another, you can withdraw your locked funds.",
       "Highest bid for a name cannot be withdrawn and is locked in a Smart contract.",
       "Please bid only once on a name, unless you withdrew your bid"
+      "Follow TM And CR laws! If you do't own the rights to a name, ask Thirdy first!"
     ];
   }
 }
