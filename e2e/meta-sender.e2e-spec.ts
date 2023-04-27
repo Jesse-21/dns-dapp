@@ -15,8 +15,8 @@ describe('distributed-dns meta-sender', () => {
 
     expect(page.getBalance()).toBe('10000');
 
-    page.setAmount('50');
-    page.setToAddress('0xf17f52151ebef6c7334fad080c5704d77216b732');
+    page.setAmount('5');
+    page.setToAddress('0xC5633f7E465eBB1A9F855F93047134ef1ca61E49');
     page.clickSend();
 
     browser.driver.sleep(1000);
